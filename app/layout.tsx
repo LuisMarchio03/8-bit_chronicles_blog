@@ -47,7 +47,7 @@ export default function RootLayout({
             <NavMenu />
           </header>
           <main>{children}</main>
-          <footer className="py-8 text-center font-mono">© 2023 8-Bit Chronicles. All rights pixelated.</footer>
+          <footer className="py-8 text-center font-mono">© 2025 8-Bit Chronicles. All rights Luís Gabriel Marchió Batista.</footer>
         </div>
         <FloatingPixels />
         <SoundEffect />

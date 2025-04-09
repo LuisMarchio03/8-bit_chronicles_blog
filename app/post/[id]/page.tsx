@@ -4,7 +4,7 @@ import SocialShare from "../../components/SocialShare"
 import { posts } from "../../data/posts"
 
 export default function Post({ params }: { params: { id: string } }) {
-  const post = posts.find((p) => p.id === Number.parseInt(params.id))
+  const post = posts.find((p) => p.id === params.id)
 
   if (!post) {
     notFound()
@@ -18,7 +18,10 @@ export default function Post({ params }: { params: { id: string } }) {
       >
         {post.category}
       </span>
-      <div className="font-mono text-lg leading-relaxed">{post.content}</div>
+      <div
+        className="font-mono text-lg leading-relaxed"
+        dangerouslySetInnerHTML={{ __html: post.content }}
+      />
       <SocialShare url={`https://yourdomain.com/post/${post.id}`} title={post.title} />
       <CommentSection />
     </article>
