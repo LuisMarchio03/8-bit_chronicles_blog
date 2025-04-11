@@ -201,7 +201,7 @@ const CommentSection: React.FC = () => {
                     className="mb-2 font-mono bg-gray-800 border-gray-700"
                   />
                   <div className="flex space-x-2">
-                    <Button type="submit" className="font-pixel bg-purple-600 hover:bg-purple-500 text-black text-xs">
+                    <Button type="submit" className="font-pixel bg-purple-600 hover:bg-purple-500 text-xs">
                       Post Reply
                     </Button>
                     <Button
@@ -251,7 +251,7 @@ const CommentSection: React.FC = () => {
           className="mb-2 font-mono bg-gray-900 border-gray-700"
           rows={4}
         />
-        <Button type="submit" className="font-pixel bg-purple-600 hover:bg-purple-500 text-black">
+        <Button type="submit" className="font-pixel bg-purple-600 hover:bg-purple-500">
           Post Comment
         </Button>
       </form>

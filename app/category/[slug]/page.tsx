@@ -22,7 +22,9 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
           >
             <div>
               <h3 className="text-xl font-pixel mb-2">{post.title}</h3>
-              <p className="font-mono text-sm mb-2">{post.content.slice(0, 100)}...</p>
+              <p className="font-mono text-sm mb-2"
+                dangerouslySetInnerHTML={{ __html: post.content.slice(0, 100) }}
+              />
             </div>
             <span
               className={`inline-block px-2 py-1 bg-purple-600 text-black text-sm font-mono rounded ${post.category === "Games" ? "w-16 text-center" : "w-auto"}`}
