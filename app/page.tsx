@@ -13,7 +13,7 @@ export default function Home() {
           <div className="grid gap-5 md:grid-cols-2">
             {posts
               .filter((post) => post.category === category)
-              .slice(0, 3)
+              // .slice(0, 3)
               .map((post) => (
                 <Link
                   key={post.id}

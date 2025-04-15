@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://8-bit.luismarchio.com.br
+
+# Sitemaps
+Sitemap: https://8-bit.luismarchio.com.br/sitemap.xml
