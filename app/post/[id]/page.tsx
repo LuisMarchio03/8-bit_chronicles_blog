@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation"
-import CommentSection from "../../components/CommentSection"
+// import CommentSection from "../../components/CommentSection"
 import SocialShare from "../../components/SocialShare"
 import { posts } from "../../data/posts"
 
@@ -33,7 +33,7 @@ export default function Post({ params }: { params: { id: string } }) {
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
         <SocialShare url={`https://yourdomain.com/post/${post.id}`} title={post.title} />
-        <CommentSection />
+        {/* <CommentSection /> */}
       </article>
     </>
   )
