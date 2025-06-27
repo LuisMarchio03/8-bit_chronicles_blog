@@ -8,7 +8,7 @@ Bem-vindo ao **8-Bit Chronicles** — um blog técnico e pessoal desenvolvido co
 
 ## 🧠 Sobre o Projeto
 
-Este blog nasceu como uma forma de documentar a jornada de um desenvolvedor full-cycle apaixonado por backend, arquitetura e tecnologia de ponta — mesclando conteúdo técnico com uma identidade estética inspirada em jogos retrô e minimalismo hacker.
+Este blog nasceu como uma forma de documentar a jornada de um desenvolvedor full-stack apaixonado por backend, arquitetura e tecnologia de ponta — mesclando conteúdo técnico com uma identidade estética inspirada em jogos e minimalismo hacker.
 
 Cada post é escrito de forma autoral, tratando desde DevLogs reais (como o projeto Aloy), até reflexões sobre carreira, dicas de produtividade, ferramentas modernas, cultura de software e muito mais.
 
